@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 100%;
+    background-image:"1.jpg";
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+
+
+
+.logo{
+    background: #e84343;
+    color: #fff;
+    margin-bottom: 30px;
+    padding: 30px 0;
+    grid-column: 1/-1;
+    text-align: center;
+}
+    
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    border-radius: 20px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+ul li{
+ background: #fff; 
+  border: none;
+  color:#fff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  border-radius: 2px;
+  transition:  all .4s ease;
+  font-size: xx-large;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #060314;
+    font-family: Arial;
+    font-weight: bold;
+    transform: 0.4s ;
+}
+
+ul li a:hover{
+     color: #ff7200;
+     
+
+
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #ff7200;
+    margin-top: 13px;
+    color: #000;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content>h2{
+    padding-left: 20px;
+    padding-bottom: 40px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    color: #ff7200;
+    width: 70px;
+    height: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #fff;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #140303;
+
+}
+
+.content span{
+    color: #ff7200;
+    font-size: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
